@@ -204,6 +204,9 @@ loadout-group-head-of-security-gloves = Head of Security gloves
 loadout-group-brigmedic-envirohelm = Brigmedic envirohelm
 loadout-group-brigmedic-envirosuit = Brigmedic envirosuit
 loadout-group-brigmedic-envirogloves = Brigmedic envirogloves
+loadout-group-corpsman-glasses = Corpsman glasses
+loadout-group-corpsman-belt = Corpsman belt
+loadout-group-corpsman-headset = Corpsman headset
 
 # Zookeeper
 loadout-group-zookeeper-envirohelm = Zookeeper envirohelm

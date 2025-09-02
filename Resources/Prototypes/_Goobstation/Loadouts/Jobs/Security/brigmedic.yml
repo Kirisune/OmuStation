@@ -8,18 +8,15 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBrigmedic
 
-
 - type: loadout
   id: BrigmedicJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBrigmedic
 
-
 - type: loadout
   id: BrigmedicBeret
   equipment:
     head: ClothingHeadHatBeretBrigmedic
-
 
 - type: loadout
   id: BrigmedicAMG
@@ -63,3 +60,63 @@
   - !type:SpeciesLoadoutEffect # Goobstation - EE Plasmeme Change.
     species:
     - Plasmaman
+
+- type: loadout
+  id: CorpsmanBeret
+  equipment:
+    head: ClothingHeadHatBeretCorpsman
+
+- type: loadout
+  id: CorpsmanJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCorpsman
+
+- type: loadout
+  id: CorpsmanJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCorpsman
+
+- type: loadout
+  id: CorpsmanWebbing
+  equipment:
+    belt: ClothingBeltCorpsmanWebbingFilled
+
+- type: loadout
+  id: EMTBeltFilled
+  equipment:
+    belt: ClothingBeltMedicalEMTFilled
+
+- type: loadout
+  id: CorpsmanBackpack
+  equipment:
+    back: ClothingBackpackCorpsman
+
+- type: loadout
+  id: CorpsmanSatchel
+  equipment:
+    back: ClothingBackpackSatchelCorpsman
+
+- type: loadout
+  id: CorpsmanDuffel
+  equipment:
+    back: ClothingBackpackDuffelCorpsman
+
+- type: loadout
+  id: CorpsmanMessenger
+  equipment:
+    back: ClothingBackpackMessengerCorpsman
+
+- type: loadout
+  id: BrigmedHeadset
+  equipment:
+    ears: ClothingHeadsetBrigmedic
+
+- type: loadout
+  id: CorpsmanHeadset
+  equipment:
+    ears: ClothingHeadsetCorpsman
+
+- type: loadout
+  id: CorpsmanAltHeadset
+  equipment:
+    ears: ClothingHeadsetAltCorpsman

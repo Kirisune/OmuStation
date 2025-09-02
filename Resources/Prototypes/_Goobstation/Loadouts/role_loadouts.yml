@@ -163,11 +163,13 @@
   - MedicalMask
   - BrigmedicJumpsuit
   - BrigmedicOuterClothing
+  - CorpsmanBelt
   - MedicalGloves
   - BrigmedicBackpack
   #- SecurityMelee # Brigmed probably doesn't need this roundstart
   - SecurityShoes
   - SecurityNeck
+  - CorpsmanHeadset
   - SurvivalSecurity
   - Trinkets
   - Animals

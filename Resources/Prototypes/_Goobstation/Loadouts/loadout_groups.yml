@@ -996,9 +996,9 @@
   - BlueshieldOfficerInnerBlueshieldSuit
   - BlueshieldOfficerInnerBlueshieldSkirt
   - BlueshieldOfficerInnerBlueshieldShirt
-  - BlueshieldOfficerTurtleneck # OmuStation Addon  
+  - BlueshieldOfficerTurtleneck # OmuStation Addon
   - BlueshieldOfficerTurtleneckSkirt # OmuStation Addon
-  - BlackBlueshieldOfficerTurtleneck # OmuStation Addon  
+  - BlackBlueshieldOfficerTurtleneck # OmuStation Addon
   - BlackBlueshieldOfficerTurtleneckSkirt # OmuStation Addon
 
 - type: loadoutGroup
@@ -1330,9 +1330,13 @@
 - type: loadoutGroup
   id: BrigmedicJumpsuit
   name: loadout-group-brigmedic-jumpsuit
+  minLimit: 1
+  maxLimit: 1
   loadouts:
   - BrigmedicJumpsuit
   - BrigmedicJumpskirt
+  - CorpsmanJumpsuit
+  - CorpsmanJumpskirt
 
 - type: loadoutGroup
   id: BrigmedicHead
@@ -1344,6 +1348,7 @@
   - SecurityBeret
   - SecurityHat
   - TrooperHat
+  - CorpsmanBeret
 
 - type: loadoutGroup
   id: BrigmedicOuterClothing
@@ -1356,6 +1361,15 @@
   - SecurityOfficerWintercoat
 
 - type: loadoutGroup
+  id: CorpsmanBelt
+  name: loadout-group-corpsman-belt
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CorpsmanWebbing
+  - EMTBeltFilled
+
+- type: loadoutGroup
   id: BrigmedicBackpack
   name: loadout-group-brigmedic-backpack
   loadouts:
@@ -1363,6 +1377,20 @@
   - BrigmedicSatchel
   - BrigmedicDuffel
   - BrigmedicMessenger
+  - CorpsmanBackpack
+  - CorpsmanSatchel
+  - CorpsmanDuffel
+  - CorpsmanMessenger
+
+- type: loadoutGroup
+  id: CorpsmanHeadset
+  name: loadout-group-corpsman-headset
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedHeadset
+  - CorpsmanHeadset
+  - CorpsmanAltHeadset
 
 - type: loadoutGroup
   id: BrigmedicEnvirohelm
