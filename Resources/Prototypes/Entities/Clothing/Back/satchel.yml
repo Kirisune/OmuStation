@@ -160,15 +160,6 @@
     sprite: Clothing/Back/Satchels/brigmedic.rsi
 
 - type: entity
-  parent: [ClothingBackpackSatchel, BaseSecurityContraband]
-  id: ClothingBackpackSatchelCorpsman
-  name: corpsman satchel
-  description: A sterile satchel for medical related needs.
-  components:
-  - type: Sprite
-    sprite: Clothing/Back/Satchels/corpsman.rsi
-
-- type: entity
   parent: [ClothingBackpackSatchel, BaseCommandContraband]
   id: ClothingBackpackSatchelCaptain
   name: captain's satchel

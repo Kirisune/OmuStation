@@ -429,34 +429,6 @@
   - type: FlashImmunity # Goobstation
   - type: FlashSoundSuppression # Goobstation
 
-#Corpsman Hardsuit ported from EE. Uses stats from above. Maybe rebalance?
-- type: entity
-  parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitCorpsman
-  name: corpsman voidsuit helmet
-  description: A lightweight armoured helmet with full-face blue visor and head-mounted light.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hardsuits/corpsman.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hardsuits/corpsman.rsi
-  - type: PointLight
-    color: "#00FFFF"
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.7
-        Heat: 0.9
-        Radiation: 0.4
-        Caustic: 0.4
-  - type: PressureProtection
-    highPressureMultiplier: 0.6
-    lowPressureMultiplier: 1000
-  - type: FlashImmunity # Goobstation
-  - type: FlashSoundSuppression # Goobstation
-
 #Warden's Hardsuit
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

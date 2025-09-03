@@ -34,18 +34,6 @@
     components: # Intentionally no surgery buff, you're reliable but not powerful as a real doctor
     - type: SecurityStaff
 
-- type: startingGear
-  id: BrigmedicGear
-  equipment: # Heavily goob edited
-    eyes: ClothingEyesGlassesCorpsman
-    id: BrigmedicPDA
-    ears: ClothingHeadsetBrigmedic # Intentionally no medical channel.
-    pocket1: WeaponDisabler
-  storage:
-    back:
-    - Flash
-    - ClothingMaskBreathMedicalSecurity
-
 - type: chameleonOutfit
   id: BrigmedicChameleonOutfit
   job: Brigmedic

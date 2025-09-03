@@ -542,43 +542,6 @@
   - type: ModifyDelayedKnockdown # Goobstation
     delayDelta: 1.5
     knockdownTimeDelta: -1.5
-#Corpsman Hardsuit ported from EE. Used stats from brigmed one from above, but could probably use a buff.
-- type: entity
-  parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
-  id: ClothingOuterHardsuitCorpsman
-  name: corpsman hardsuit
-  description: A purpose-built combat suit designed to allow its user greater mobility for superior support of friendly units in active combat zones.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/corpsman.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/corpsman.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.3
-    lowPressureMultiplier: 1000
-  - type: ExplosionResistance
-    damageCoefficient: 0.7
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.85
-        Slash: 0.85
-        Piercing: 0.7
-        Heat: 0.85
-        Radiation: 0.4
-        Caustic: 0.4
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
-  - type: HeldSpeedModifier
-  - type: ToggleableClothing # Goobstation - Modsuits change
-    clothingPrototypes:
-      head: ClothingHeadHelmetHardsuitCorpsman
-  - type: StaminaResistance # Goobstation
-    damageCoefficient: 0.7
-  - type: ModifyDelayedKnockdown # Goobstation
-    delayDelta: 1.5
-    knockdownTimeDelta: -1.5
 
 #Warden's Hardsuit
 - type: entity
