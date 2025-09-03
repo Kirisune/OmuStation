@@ -996,9 +996,9 @@
   - BlueshieldOfficerInnerBlueshieldSuit
   - BlueshieldOfficerInnerBlueshieldSkirt
   - BlueshieldOfficerInnerBlueshieldShirt
-  - BlueshieldOfficerTurtleneck # OmuStation Addon  
+  - BlueshieldOfficerTurtleneck # OmuStation Addon
   - BlueshieldOfficerTurtleneckSkirt # OmuStation Addon
-  - BlackBlueshieldOfficerTurtleneck # OmuStation Addon  
+  - BlackBlueshieldOfficerTurtleneck # OmuStation Addon
   - BlackBlueshieldOfficerTurtleneckSkirt # OmuStation Addon
 
 - type: loadoutGroup
@@ -1325,25 +1325,25 @@
   maxLimit: 1
   loadouts:
   - CombatGloves
-# Brigmedic
+# Brigmedic /// Parts moved to _Omu
 
-- type: loadoutGroup
-  id: BrigmedicJumpsuit
-  name: loadout-group-brigmedic-jumpsuit
-  loadouts:
-  - BrigmedicJumpsuit
-  - BrigmedicJumpskirt
+#- type: loadoutGroup
+#  id: BrigmedicJumpsuit
+#  name: loadout-group-brigmedic-jumpsuit
+#  loadouts:
+#  - BrigmedicJumpsuit
+#  - BrigmedicJumpskirt
 
-- type: loadoutGroup
-  id: BrigmedicHead
-  name: loadout-group-brigmedic-head
-  minLimit: 0
-  loadouts:
-  - BrigmedicBeret
-  - CMOMedicalHeadMirror
-  - SecurityBeret
-  - SecurityHat
-  - TrooperHat
+#- type: loadoutGroup
+#  id: BrigmedicHead
+#  name: loadout-group-brigmedic-head
+#  minLimit: 0
+#  loadouts:
+#  - BrigmedicBeret
+#  - CMOMedicalHeadMirror
+#  - SecurityBeret
+#  - SecurityHat
+#  - TrooperHat
 
 - type: loadoutGroup
   id: BrigmedicOuterClothing
@@ -1355,14 +1355,14 @@
   - ArmorVestSlim
   - SecurityOfficerWintercoat
 
-- type: loadoutGroup
-  id: BrigmedicBackpack
-  name: loadout-group-brigmedic-backpack
-  loadouts:
-  - BrigmedicBackpack
-  - BrigmedicSatchel
-  - BrigmedicDuffel
-  - BrigmedicMessenger
+#- type: loadoutGroup
+#  id: BrigmedicBackpack
+#  name: loadout-group-brigmedic-backpack
+#  loadouts:
+#  - BrigmedicBackpack
+#  - BrigmedicSatchel
+#  - BrigmedicDuffel
+#  - BrigmedicMessenger
 
 - type: loadoutGroup
   id: BrigmedicEnvirohelm

@@ -1,0 +1,24 @@
+#Current brigmed loadout with a few extra groups to account for corpsman gear
+- type: roleLoadout
+  id: JobBrigmedic
+  groups:
+  - BrigmedicHead
+  - MedicalMask
+  - BrigmedicJumpsuit
+  - BrigmedicOuterClothing
+  - CorpsmanBelt
+  - MedicalGloves
+  - BrigmedicBackpack
+  #- SecurityMelee # Brigmed probably doesn't need this roundstart. /// This was commented out by goob im pretty sure.
+  - SecurityShoes
+  - SecurityNeck
+  - CorpsmanHeadset
+  - SurvivalSecurity
+  - Trinkets
+  - Animals
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+  # Goobstation - EE Plasmeme Change.
+  - BrigmedicEnvirohelm
+  - BrigmedicEnvirosuit
+  - BrigmedicEnvirogloves

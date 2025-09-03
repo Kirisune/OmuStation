@@ -1,0 +1,57 @@
+#Brigmed loadout groups adding new corpsman items.
+- type: loadoutGroup
+  id: BrigmedicJumpsuit
+  name: loadout-group-brigmedic-jumpsuit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedicJumpsuit
+  - BrigmedicJumpskirt
+  - CorpsmanJumpsuit
+  - CorpsmanJumpskirt
+
+- type: loadoutGroup
+  id: BrigmedicHead
+  name: loadout-group-brigmedic-head
+  minLimit: 0
+  loadouts:
+  - BrigmedicBeret
+  - CMOMedicalHeadMirror
+  - SecurityBeret
+  - SecurityHat
+  - TrooperHat
+  - CorpsmanBeret
+
+- type: loadoutGroup
+  id: CorpsmanBelt
+  name: loadout-group-corpsman-belt
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CorpsmanWebbing
+  - EMTBeltFilled
+
+- type: loadoutGroup
+  id: BrigmedicBackpack
+  name: loadout-group-brigmedic-backpack
+  loadouts:
+  - BrigmedicBackpack
+  - BrigmedicSatchel
+  - BrigmedicDuffel
+  - BrigmedicMessenger
+  - CorpsmanBackpack
+  - CorpsmanSatchel
+  - CorpsmanDuffel
+  - CorpsmanMessenger
+
+- type: loadoutGroup
+  id: CorpsmanHeadset
+  name: loadout-group-corpsman-headset
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedHeadset
+  - CorpsmanHeadset
+  - CorpsmanAltHeadset
+
+

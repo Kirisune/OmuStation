@@ -231,15 +231,15 @@
   inhand:
     - WeaponMeleeToolboxRobust
 
-#Brigmedic
+#Brigmedic.
 
 - type: startingGear
   id: BrigmedicGear
   equipment: # Heavily goob edited
-    eyes: ClothingEyesGlassesMed
+#    eyes: ClothingEyesGlassesMed #OMU. Now in loadouts
     id: BrigmedicPDA
-    ears: ClothingHeadsetAltSecurityRegular # Intentionally no medical channel
-    belt: ClothingBeltMedicalEMTFilled
+#    ears: ClothingHeadsetAltSecurityRegular #OMU. Also in loadouts
+#    belt: ClothingBeltMedicalEMTFilled #OMU. Also in loadouts
     pocket1: WeaponDisabler
   storage:
     back:
