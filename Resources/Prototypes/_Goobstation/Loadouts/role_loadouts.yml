@@ -156,27 +156,28 @@
   - GroupHonkopsMask
   - GroupPocketTankDouble
 
-- type: roleLoadout
-  id: JobBrigmedic
-  groups:
-  - BrigmedicHead
-  - MedicalMask
-  - BrigmedicJumpsuit
-  - BrigmedicOuterClothing
-  - MedicalGloves
-  - BrigmedicBackpack
-  #- SecurityMelee # Brigmed probably doesn't need this roundstart
-  - SecurityShoes
-  - SecurityNeck
-  - SurvivalSecurity
-  - Trinkets
-  - Animals
-  - SecurityStar
-  - GroupSpeciesBreathToolSecurity
-  # Goobstation - EE Plasmeme Change.
-  - BrigmedicEnvirohelm
-  - BrigmedicEnvirosuit
-  - BrigmedicEnvirogloves
+# OMU
+#- type: roleLoadout
+#  id: JobBrigmedic
+#  groups:
+#  - BrigmedicHead
+#  - MedicalMask
+#  - BrigmedicJumpsuit
+#  - BrigmedicOuterClothing
+#  - MedicalGloves
+#  - BrigmedicBackpack
+#  #- SecurityMelee # Brigmed probably doesn't need this roundstart
+#  - SecurityShoes
+#  - SecurityNeck
+#  - SurvivalSecurity
+#  - Trinkets
+#  - Animals
+#  - SecurityStar
+#  - GroupSpeciesBreathToolSecurity
+#  # Goobstation - EE Plasmeme Change.
+#  - BrigmedicEnvirohelm
+# - BrigmedicEnvirosuit
+#  - BrigmedicEnvirogloves
 
 
 # gives plasmaman a plasma breathing tank
