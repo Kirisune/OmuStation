@@ -90,5 +90,15 @@
   - type: Clothing
     sprite: _Omu/Clothing/Uniforms/Jumpskirt/hopturtleneckskirt.rsi
 
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCorpsman
+  name: corpsman jumpskirt
+  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Uniforms/Jumpskirt/corpsman.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Uniforms/Jumpskirt/corpsman.rsi
 
 
